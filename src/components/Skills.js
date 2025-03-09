@@ -8,9 +8,9 @@ import htmll from "../img/html.png";
 import JavaScript from "../img/javascript.png";
 import mongo from "../img/mongo.jpeg";
 import react from "../img/react.png";
-import sap from "../img/sap.png";
 import node from "../img/node.png";
 import tailwind from "../img/tailwind.png";
+import next from "../img/next.js.png"
 
 const Skills = () => {
   const skills = [
@@ -64,8 +64,8 @@ const Skills = () => {
     },
     {
       id: 9,
-      src: sap,
-      title: "SAP ABAP",
+      src: next,
+      title: "Next Js",
       style: "shadow-gray-200",
     },
     {
@@ -104,7 +104,7 @@ const Skills = () => {
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
               style={{ minWidth: "150px" }}
             >
-              <img src={src} alt="" className="w-20 mx-auto"></img>
+              <img src={src} alt="" className="w-20 mx-auto shadow shadow-white rounded-xl shadow-sm-"></img>
               <p className="mt-4">{title}</p>
             </div>
           ))}
