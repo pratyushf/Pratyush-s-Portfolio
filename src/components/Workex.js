@@ -6,7 +6,7 @@ const Workex = () => {
       <div
         id="Work-Ex"
         name="Work-Ex"
-        className=" text-white w-full min-h-screen bg-gradient-to-b from-gray-800 to-gray-800 pt-24 pb-32"
+        className=" text-white w-full min-h-screen bg-black pt-24 pb-32"
       >
         <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
           <div className=" pb-8">
