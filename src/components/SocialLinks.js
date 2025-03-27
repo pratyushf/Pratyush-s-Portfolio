@@ -9,7 +9,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          LinkedIn <FaLinkedin className="w-6 h-6 md:w-8 md:h-8" />
         </>
       ),
       href: "https://www.linkedin.com/in/pratyush-fekarikar-645a72200",
@@ -19,50 +19,49 @@ const SocialLinks = () => {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          GitHub <FaGithub className="w-6 h-6 md:w-8 md:h-8" />
         </>
       ),
       href: "https://github.com/pratyushf",
-      style: "rounded-tr-md",
+      style: "",
     },
     {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Mail <HiOutlineMail className="w-6 h-6 md:w-8 md:h-8" />
         </>
       ),
       href: "mailto:pratyushf@gmail.com",
-      style: "rounded-tr-md",
+      style: "",
     },
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill className="w-6 h-6 md:w-8 md:h-8" />
         </>
       ),
-      href: "/Pratyush fekarikar Resume 2025.pdf",
+      href: "/Resume Pratyush Fekarikar.pdf",
       style: "rounded-br-md",
       download: true,
     },
   ];
 
   return (
-    <div className=" flex flex-col top-[35%] left-0 fixed">
+    <div className="flex flex-col top-[50%] left-0 fixed opacity-50">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              " flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-500 hover:rounded-md duration-300 hover:ml-[-10px]" +
-              " " +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] bg-gray-500 hover:rounded-md duration-300 hover:ml-[-10px] " +
               style
             }
           >
             <a
               href={href}
-              className=" flex justify-between items-center w-full text-white "
+              className="flex justify-between items-center w-full text-white"
               download={download}
               target="_blank"
               rel="noreferrer"

@@ -13,10 +13,11 @@ const Home = () => {
         {/* Text Section */}
         <div className="flex flex-col justify-center text-center md:text-left h-full">
           <h2 className="text-3xl sm:text-5xl md:text-7xl font-bold text-white mt-6">
-            I am a Frontend Developer
+            Pratyush Fekarikar
           </h2>
+          <p className=" text-white font-semibold text-2xl">( Frontend Developer )</p>
           <p className="text-gray-200 py-4 text-justify max-w-md">
-            Results-driven Web Developer with a proven track record in building
+            Results-driven Web Developer with a proven track record of Two Years in building
             and integrating scalable applications. Skilled in React.js,
             full-stack development, and industry integration. Adept at leading
             projects and teams to drive seamless data solutions. Seeking a
@@ -38,7 +39,7 @@ const Home = () => {
           <img
             src={profilepic}
             alt="mypic"
-            className="rounded-2xl w-2/3 sm:w-1/2 md:w-3/4 lg:w-[70%]"
+            className=" w-2/3 sm:w-1/2 md:w-3/4 lg:w-[70%]"
           />
         </div>
       </div>
